@@ -1,6 +1,6 @@
 import React from "react";
 
-const CrimeAnalisys = ({ data }) => {
+const CrimeAnalisys = ({ data }:any) => {
   console.log(data, "data desde crime analysis");
 
   return (
@@ -14,7 +14,7 @@ const CrimeAnalisys = ({ data }) => {
         <div>
           <h3 className="text-xl font-semibold">Pistas Clave</h3>
           <ul>
-            {data.descripcion["Pistas Clave"].map((pista,index) => (
+            {data.descripcion["Pistas Clave"].map((pista:any,index:any) => (
               <li key={index} className="my-2"> - {pista}</li>
             ))}
           </ul>

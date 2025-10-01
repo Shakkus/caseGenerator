@@ -30,7 +30,7 @@ const page = () => {
   if (error) {
     return <p>Hubo un problema al cargar datos</p>;
   }
-  
+
   if (formattedData) {
     return (
       <>

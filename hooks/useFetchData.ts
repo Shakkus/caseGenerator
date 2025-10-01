@@ -3,9 +3,9 @@
 import { AiGenerateCase } from "@/utilitie/AiGenerateCase";
 import { useState } from "react";
 
-export const useFetchData = <TData>() => {
+export const useFetchData = () => {
   const [isLoading, setIsLoading] = useState(false);
-  const [data, setData] = useState<TData | null>(null);
+  const [data, setData] = useState<any | null>(null);
   const [error, setError] = useState<Error | null>(null);
 
   const execute = async () => {

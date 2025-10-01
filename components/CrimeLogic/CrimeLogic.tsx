@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const CrimeLogic = ({ data }) => {
+const CrimeLogic = ({ data }:any) => {
   const [isHidden, setIsHidden] = useState(true);
 
   return (

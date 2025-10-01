@@ -5,7 +5,7 @@ import Suspects from "../Suspects/Suspects";
 import Link from "next/link";
 import CrimeLogic from "../CrimeLogic/CrimeLogic";
 
-const CaseViewer = (data) => {
+const CaseViewer = (data:any) => {
   if (data) {
     return (
       <div className="flex flex-col h-full">

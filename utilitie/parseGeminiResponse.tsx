@@ -1,6 +1,6 @@
 "use client"
 
-const parseGeminiResponse = (rawString: string) => {
+const parseGeminiResponse = (rawString: any) => {
   try {
     const startIndex = rawString.indexOf("{");
     const endIndex = rawString.lastIndexOf("}");

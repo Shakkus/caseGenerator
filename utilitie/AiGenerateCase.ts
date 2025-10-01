@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 export const AiGenerateCase = async () => {
   const geminiApiKey = process.env.GEMINI_API_KEY;
 
-  const genAi = new GoogleGenerativeAI(geminiApiKey);
+  const genAi = new GoogleGenerativeAI(geminiApiKey || "");
 
   try {
     const model = genAi.getGenerativeModel({ model: "gemini-2.5-flash" });
