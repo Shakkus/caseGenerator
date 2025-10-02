@@ -28,6 +28,8 @@ const page = () => {
   }
 
   if (error) {
+    console.log(error);
+
     return <p>Hubo un problema al cargar datos</p>;
   }
 
