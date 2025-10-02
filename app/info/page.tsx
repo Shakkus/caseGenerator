@@ -9,9 +9,8 @@ const page = () => {
         Desde ya muchas gracias por utilizar mi aplicacion, la misma fue creada
         para poder repasar elementos basicos de NEXT.JS
       </p>
-      <div>
+      <div className="m-10 bg-blue-500 p-5 rounded-3xl flex justify-around">
         <Link href="/">Home</Link>
-        <button>Linkedin</button>
       </div>
     </div>
   );

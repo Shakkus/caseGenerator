@@ -9,7 +9,7 @@ export default function Home() {
         Investiga el Hecho
       </h2>
       <Link
-        href="/case"
+        href="/home"
         className="bg-gray-900 p-5 rounded-2xl text-white m-10"
       >
         Comenzar
