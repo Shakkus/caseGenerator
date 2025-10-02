@@ -77,8 +77,6 @@ Titulo del Caso": {
     const response = result.response;
     const text = response.text();
 
-    console.log("Respuesta de la API:", text);
-
     return text;
   } catch (error) {
     console.error("Error al generar contenido:", error);

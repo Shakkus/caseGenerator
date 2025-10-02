@@ -1,7 +1,6 @@
 import React from "react";
 
 const CrimeAnalisys = ({ data }:any) => {
-  console.log(data, "data desde crime analysis");
 
   return (
     <div className="text-black bg-gray-200 p-10">

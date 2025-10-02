@@ -16,8 +16,6 @@ const page = () => {
 
   useEffect(() => {
     if (data) {
-      console.log("Se genero un caso");
-
       const transformedData = parseGeminiResponse(data);
       setFormattedData(transformedData);
     }
@@ -28,8 +26,6 @@ const page = () => {
   }
 
   if (error) {
-    console.log(error);
-
     return <p>Hubo un problema al cargar datos</p>;
   }
 
